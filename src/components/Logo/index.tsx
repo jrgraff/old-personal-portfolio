@@ -6,6 +6,7 @@ const LogoContainer = styled.div`
     font-family["Qwitcher Grypen"]
     font-black
     text-4xl
+    sm:text-5xl
     text-white
   `}
 `

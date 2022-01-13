@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import { slide as Menu } from "react-burger-menu";
 
 import { Logo } from "../Logo";
-import { deviceSize } from "../constants/deviceSize";
+import { deviceSize } from "../../constants/deviceSize";
 
 import { styles } from "./menuStyles";
 
@@ -64,13 +64,10 @@ export function NavBar() {
   const navItems = (
     <NavItems>
       <NavItem>
-        <Link to="#Home">Home</Link>
+        <Link to="About">Sobre</Link>
       </NavItem>
       <NavItem>
-        <Link to="#Projects">Projects</Link>
-      </NavItem>
-      <NavItem>
-        <Link to="#About">About</Link>
+        <Link to="Projects">Projetos</Link>
       </NavItem>
     </NavItems>
   )
