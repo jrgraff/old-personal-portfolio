@@ -25,6 +25,9 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
+    "@types/react-burger-menu": "^2.8.3",
+    "@types/react-scroll": "^1.8.3",
+    "@types/styled-components": "^5.1.20",
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
