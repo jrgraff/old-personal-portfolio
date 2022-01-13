@@ -3,11 +3,11 @@ export const styles = {
     position: 'fixed',
     width: '36px',
     height: '30px',
-    left: '36px',
+    left: '75%',
     top: '36px'
   },
   bmBurgerBars: {
-    background: '#373a47'
+    background: '#ddd'
   },
   bmBurgerBarsHover: {
     background: '#a90000'
@@ -21,7 +21,9 @@ export const styles = {
   },
   bmMenuWrap: {
     position: 'fixed',
-    height: '100%'
+    height: '100%',
+    width: '100%',
+    top: '0',
   },
   bmMenu: {
     background: '#373a47',
@@ -39,6 +41,6 @@ export const styles = {
     display: 'inline-block'
   },
   bmOverlay: {
-    background: 'rgba(0, 0, 0, 0.3)'
+    background: 'rgba(0, 0, 0, 0.2)'
   }
 }

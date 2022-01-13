@@ -11,15 +11,17 @@ import { styles } from "./menuStyles";
 
 const Container = styled.div`
   width: 70%;
+  padding-left: 50%;
   ${tw`
     flex
     h-20
-    pl-6
+    pl-0
+    sm:pl-6
     pr-6
     pt-4
-    border-b-2
-    border-gray-200
-    border-opacity-50
+    sm:border-b-2
+    sm:border-gray-200
+    sm:border-opacity-50
     items-center
     self-center
   `}
@@ -30,8 +32,8 @@ const NavItems = tw.ul`
   w-full
   h-auto
   lg:h-full
-  flex
   lg:ml-auto
+  flex
   justify-end
   items-center
 `
