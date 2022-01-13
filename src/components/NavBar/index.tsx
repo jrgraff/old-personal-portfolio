@@ -10,6 +10,7 @@ import { deviceSize } from "../constants/deviceSize";
 import { styles } from "./menuStyles";
 
 const Container = styled.div`
+  width: 70%;
   ${tw`
     flex
     h-20
@@ -30,13 +31,14 @@ const NavItems = tw.ul`
   h-auto
   lg:h-full
   flex
-  lg:ml-20
-  justify-center
+  lg:ml-auto
+  justify-end
   items-center
 `
 
 const NavItem = tw.li`
   lg:mr-8
+  sm:mr-4
   flex
   items-center
   justify-center
@@ -45,10 +47,10 @@ const NavItem = tw.li`
   cursor-pointer
   font-medium
   text-lg
-  lg:text-base
+  sm:text-base
   transition-colors
   transition-duration[300ms]
-  hover:text-gray-300
+  hover:text-gray-200
   box-content
   mb-2
   lg:mb-0
