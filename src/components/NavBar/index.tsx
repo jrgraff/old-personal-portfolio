@@ -64,10 +64,13 @@ export function NavBar() {
   const navItems = (
     <NavItems>
       <NavItem>
-        <Link to="About">Sobre</Link>
+        <Link to="Start" smooth={"easeInOutQuad"} duration={1500}>Início</Link>
       </NavItem>
       <NavItem>
-        <Link to="Projects">Projetos</Link>
+        <Link to="About" smooth={"easeInOutQuad"} duration={1500}>Sobre</Link>
+      </NavItem>
+      <NavItem>
+        <Link to="Projects" smooth={"easeInOutQuad"} duration={1500}>Projetos</Link>
       </NavItem>
     </NavItems>
   )

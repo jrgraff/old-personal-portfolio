@@ -1,6 +1,6 @@
 export const styles = {
   bmBurgerButton: {
-    position: 'fixed',
+    position: 'absolute',
     width: '36px',
     height: '30px',
     left: '75%',
@@ -8,9 +8,6 @@ export const styles = {
   },
   bmBurgerBars: {
     background: '#ddd'
-  },
-  bmBurgerBarsHover: {
-    background: '#a90000'
   },
   bmCrossButton: {
     height: '24px',
@@ -20,13 +17,13 @@ export const styles = {
     background: '#bdc3c7'
   },
   bmMenuWrap: {
-    position: 'fixed',
-    height: '100%',
-    width: '100%',
+    height: '100vh',
+    width: '80%',
     top: '0',
   },
   bmMenu: {
-    background: '#373a47',
+    background: '#003f69c7',
+    borderRadius: '0 0 0 100%',
     padding: '2.5em 1.5em 0',
     fontSize: '1.15em'
   },
@@ -41,6 +38,11 @@ export const styles = {
     display: 'inline-block'
   },
   bmOverlay: {
-    background: 'rgba(0, 0, 0, 0.2)'
+    background: 'rgba(0, 0, 0, 0.1)',
+    borderRadius: '0 0 0 100%',
+    position: 'fixed',
+    top: '0',
+    right: '0',
+    width: '83%',
   }
 }

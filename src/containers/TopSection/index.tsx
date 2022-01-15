@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-import { Link } from "react-scroll";
-import { BsArrowDownCircle } from "react-icons/bs"
 
 import { NavBar } from "../../components/NavBar";
 import BackgroundImage from "../../assets/images/top-background.jpg";
+import { ViewMoreButton } from "../../components/ViewMoreButton";
 
 const TopSectionContainer = styled.div`
   ${tw`
@@ -89,24 +88,10 @@ const DescriptionText = styled.p`
   `}
 `
 
-const ViewMoreButton = styled.button`
-  ${tw`
-    absolute
-    bottom-4
-    left-1/2
-    -translate-x-1/2
-    text-white
-    text-4xl
-    transition-colors
-    duration-200
-    hover:text-blue-400
-  `}
-`
-
 export function TopSection() {
   return (
     <TopSectionContainer>
-      <LandingSection>
+      <LandingSection id="Start">
         <NavBar />
         <InfoSection>
           <FloatingText>Olá,</FloatingText>
@@ -123,11 +108,7 @@ export function TopSection() {
           Atualmente estudando Serverless
           </DescriptionText>
         </InfoSection>
-        <ViewMoreButton>
-          <Link to="About" smooth={"easeInOutQuad"} duration={1500}>
-            <BsArrowDownCircle />
-          </Link>
-        </ViewMoreButton>
+        <ViewMoreButton to="About" color="text-white" />
       </LandingSection>
     </TopSectionContainer>
   )

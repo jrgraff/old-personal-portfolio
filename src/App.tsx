@@ -2,6 +2,7 @@ import tw from 'twin.macro';
 
 import { TopSection } from './containers/TopSection';
 import { AboutSection } from './containers/AboutSection';
+import { ProjectsSection } from './containers/ProjectsSection';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
     <AppContainer>
       <TopSection />
       <AboutSection />
+      <ProjectsSection />
     </AppContainer>
   );
 }
