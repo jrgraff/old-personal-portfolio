@@ -15,7 +15,7 @@ const ProjectsSectionContainer = styled.div`
     relative
     pb-10
     lg:pb-20
-    bg-[#2d73ff]
+    bg-[#2e56a7]
   `};
 `
 
@@ -23,6 +23,7 @@ const LandingSection = styled.div`
   ${tw`
     w-full
   `};
+  min-height: 100vh;
 `
 
 const TitleSection = styled.div`
@@ -45,6 +46,7 @@ const CardSection = styled.div`
     flex
     flex-wrap
     gap-0.5
+    mt-10
   `}
 `
 
@@ -138,7 +140,7 @@ export function ProjectsSection() {
             <Image src={ignewsImage} alt="image" />
             <DescriptionSection>
               <h3>
-                <ProjectLink>
+                <ProjectLink href="https://ig-news-sandy.vercel.app" target="_blank">
                   ig.news
                 </ProjectLink>
               </h3>
@@ -160,7 +162,7 @@ export function ProjectsSection() {
             <Image src={letmeaskImage} alt="image" />
             <DescriptionSection>
               <h3>
-                <ProjectLink>
+                <ProjectLink href="https://letmeask-sepia-phi.vercel.app" target="_blank">
                   Letmeask
                 </ProjectLink>
               </h3>
@@ -182,7 +184,7 @@ export function ProjectsSection() {
             <Image src={portfolioImage} alt="image" />
             <DescriptionSection>
               <h3>
-                <ProjectLink>
+                <ProjectLink href="/" target="_blank">
                   Esse portfólio
                 </ProjectLink>
               </h3>
