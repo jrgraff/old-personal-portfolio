@@ -19,7 +19,7 @@ const Button = styled.button`
 export function ViewMoreButton({ to, color }: { to: string; color: string }) {
   return (
     <Button>
-      <Link to={to} smooth={"easeInOutQuad"} className={ color } duration={1500}>
+      <Link to={to} smooth={"easeInOutQuad"} className={ color } duration={1000}>
         <BsArrowDownCircle />
       </Link>
     </Button>

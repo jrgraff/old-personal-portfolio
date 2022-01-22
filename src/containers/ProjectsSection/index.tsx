@@ -6,6 +6,7 @@ import { SiVercel } from "react-icons/si"
 import ignewsImage from "../../assets/images/ignews.jpg";
 import letmeaskImage from "../../assets/images/letmeask.jpg";
 import portfolioImage from "../../assets/images/portfolio.jpg";
+import { CustomButton } from "../../components/CustomButton";
 
 const ProjectsSectionContainer = styled.div`
   ${tw`
@@ -113,21 +114,6 @@ const LinkSection = styled.div`
   justify-content: center;
 `
 
-const VerMaisLink = styled.a`
-  ${tw`
-    py-2
-    px-3
-    border border-[#E5E7EB]
-    rounded-full
-    text-base
-    font-medium
-    transition
-    cursor-pointer
-    hover:text-blue-400
-  `}
-`
-
-
 export function ProjectsSection() {
   return (
     <ProjectsSectionContainer id="Projects">
@@ -148,12 +134,12 @@ export function ProjectsSection() {
                 Um pequeno blog criado durante o bootcamp Ignite da Rocketseat. Totalmente funcional em Next.js, utilizando APIs do Stripe e Prismic.
               </Description>
               <LinkSection>
-                <VerMaisLink href="https://github.com/jrgraff/ig.news" target="_blank">
+                <CustomButton props={{href:"https://github.com/jrgraff/ig.news"}}>
                   <FaGithub className="inline p-0 m-0 mb-1 w-5" /> Github
-                </VerMaisLink>
-                <VerMaisLink href="https://ig-news-sandy.vercel.app" target="_blank">
+                </CustomButton>
+                <CustomButton props={{href:"https://ig-news-sandy.vercel.app"}}>
                   <SiVercel className="inline p-0 m-0 mb-1 w-5" /> Vercel
-                </VerMaisLink>
+                </CustomButton>
               </LinkSection>
             </DescriptionSection>
           </Card>
@@ -170,12 +156,12 @@ export function ProjectsSection() {
                 Um gerenciador de Q&amp;A desenvolvido durante a NLW Together #6, utilizando o Firebase como back-end. Também conta com algumas alterações minhas.
               </Description>
               <LinkSection>
-                <VerMaisLink href="https://github.com/jrgraff/letmeask" target="_blank">
+                <CustomButton props={{href:"https://github.com/jrgraff/letmeask"}}>
                   <FaGithub className="inline p-0 m-0 mb-1 w-5" /> Github
-                </VerMaisLink>
-                <VerMaisLink href="https://letmeask-sepia-phi.vercel.app" target="_blank">
+                </CustomButton>
+                <CustomButton props={{href:"https://letmeask-sepia-phi.vercel.app"}}>
                   <SiVercel className="inline p-0 m-0 mb-1 w-5" /> Vercel
-                </VerMaisLink>
+                </CustomButton>
               </LinkSection>
             </DescriptionSection>
           </Card>
@@ -192,9 +178,9 @@ export function ProjectsSection() {
                 Isso mesmo, esse portfólio que você está acessando agora. Caso deseje ver o código fonte, é só seguir o link do Github.
               </Description>
               <LinkSection>
-                <VerMaisLink href="https://github.com/jrgraff/personal-portfolio" target="_blank">
+                <CustomButton props={{href: "https://github.com/jrgraff/personal-portfolio"}}>
                   <FaGithub className="inline p-0 m-0 mb-1 w-5" /> Github
-                </VerMaisLink>
+                </CustomButton>
               </LinkSection>
             </DescriptionSection>
           </Card>
