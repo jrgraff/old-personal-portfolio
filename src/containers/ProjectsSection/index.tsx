@@ -148,7 +148,7 @@ export function ProjectsSection() {
             <Image src={letmeaskImage} alt="image" />
             <DescriptionSection>
               <h3>
-                <ProjectLink href="https://letmeask-sepia-phi.vercel.app" target="_blank">
+                <ProjectLink href="https://letmeask-jrgraff.vercel.app" target="_blank">
                   Letmeask
                 </ProjectLink>
               </h3>
@@ -159,7 +159,7 @@ export function ProjectsSection() {
                 <CustomButton props={{href:"https://github.com/jrgraff/letmeask"}}>
                   <FaGithub className="inline p-0 m-0 mb-1 w-5" /> Github
                 </CustomButton>
-                <CustomButton props={{href:"https://letmeask-sepia-phi.vercel.app"}}>
+                <CustomButton props={{href:"https://letmeask-jrgraff.vercel.app"}}>
                   <SiVercel className="inline p-0 m-0 mb-1 w-5" /> Vercel
                 </CustomButton>
               </LinkSection>
