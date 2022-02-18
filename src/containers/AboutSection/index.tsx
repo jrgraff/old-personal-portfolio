@@ -95,10 +95,8 @@ export function AboutSection() {
         <Section>
           <Title>Sobre mim</Title>
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            Formado em Sistemas de Informação na universidade URI - Santo Ângelo, atualmente cursando pós graduação de Gestão em Metodologias Ágeis no Biopark Educação. Trabalhei durante seis anos no Tenondé Park Hotel, onde passei grande parte do período no atendimento ao público como recepcionista, mas também atuando na área de cobranças, no setor administrativo.
+Durante o ultimo ano venho focando no aprendizado de novas tecnologias, como ReactJS, Node.JS, HTML e CSS, entre outras tecnologias. Meu objetivo para o futuro é me identificar como desenvolvedor full stack sênior.
           </Description>
           <LinkSection>
             <CustomButton props={{href:"https://github.com/jrgraff", className:"border-none bg-gray-900 text-gray-100"}}>
