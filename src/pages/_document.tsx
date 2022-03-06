@@ -23,10 +23,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <style
-            data-emotion-css={this.props.ids?.join(' ')}
-            dangerouslySetInnerHTML={{ __html: this.props.css }}
-          />
           <meta charSet="utf-8" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta name="theme-color" content="#000000" />

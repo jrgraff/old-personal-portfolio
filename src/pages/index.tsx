@@ -14,7 +14,7 @@ const AppContainer = tw.div`
   overflow-hidden
 `
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <>
       <AppContainer>
