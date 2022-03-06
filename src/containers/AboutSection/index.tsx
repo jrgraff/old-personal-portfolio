@@ -96,7 +96,7 @@ export function AboutSection() {
           <Title>Sobre mim</Title>
           <Description>
             Formado em Sistemas de Informação na universidade URI - Santo Ângelo, atualmente cursando pós graduação de Gestão em Metodologias Ágeis no Biopark Educação.<br />
-            Trabalhei durante seis anos no Tenondé Park Hotel, onde desenvolvi muito minha flexibilidade, inteligência emocional, empatia e flexibilidade.<br />
+            Trabalhei durante seis anos no Tenondé Park Hotel, onde desenvolvi muito minha flexibilidade, inteligência emocional, empatia e resiliência.<br />
             Durante o ultimo ano venho focando no aprendizado de novas tecnologias, como ReactJS, Node.js, HTML e CSS, entre outras tecnologias. Meu objetivo para o futuro é me identificar como desenvolvedor full stack sênior.
           </Description>
           <LinkSection>
