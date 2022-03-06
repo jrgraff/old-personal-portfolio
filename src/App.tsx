@@ -5,8 +5,6 @@ import { AboutSection } from './containers/AboutSection';
 import { ProjectsSection } from './containers/ProjectsSection';
 import { Footer } from './components/Footer';
 
-import './App.css';
-
 const AppContainer = tw.div`
   flex
   flex-col

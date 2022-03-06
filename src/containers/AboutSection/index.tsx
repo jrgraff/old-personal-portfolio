@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-import { FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { CustomButton } from "../../components/CustomButton";
 import { ViewMoreButton } from "../../components/ViewMoreButton";
@@ -21,6 +21,8 @@ const LandingSection = styled.div`
     min-h-screen
     flex
     flex-col
+    mb-12
+    sm:mb-2
     sm:flex-row
     bg-gray-100
   `};
@@ -29,9 +31,8 @@ const LandingSection = styled.div`
 const Section = styled.section`
   ${tw`
     h-full
-    mt-6
+    mt-12
     sm:w-full
-    sm:mt-32
   `};
 `
 
@@ -74,7 +75,7 @@ const LinkSection = styled.div`
 
 const Skills = styled.div`
   ${tw`
-    m-6
+    m-4
     flex
     flex-wrap
     justify-center
@@ -96,14 +97,15 @@ export function AboutSection() {
           <Title>Sobre mim</Title>
           <Description>
             Formado em Sistemas de Informação na universidade URI - Santo Ângelo, atualmente cursando pós graduação de Gestão em Metodologias Ágeis no Biopark Educação.<br />
-            Trabalhei durante seis anos no Tenondé Park Hotel, onde desenvolvi muito minha flexibilidade, inteligência emocional, empatia e resiliência.<br />
-            Durante o ultimo ano venho focando no aprendizado de novas tecnologias, como ReactJS, Node.js, HTML e CSS, entre outras tecnologias. Meu objetivo para o futuro é me identificar como desenvolvedor full stack sênior.
+            Trabalhei durante seis anos no ramo de hotelaria, onde desenvolvi muito minha flexibilidade, inteligência emocional, empatia e resiliência.<br />
+            Durante o ultimo ano venho focando no aprendizado de novas tecnologias, como ReactJS, Node.js, HTML e CSS, entre outras tecnologias.<br />
+            Atualmente estou atuando como Trainee, com foco no crescimento pessoal, e meu objetivo para o futuro é me identificar como desenvolvedor full stack sênior.
           </Description>
           <LinkSection>
-            <CustomButton props={{href:"https://github.com/jrgraff", className:"border-none bg-gray-900 text-gray-100"}}>
+            <CustomButton props={{ href: "https://github.com/jrgraff", className: "border-none bg-gray-900 text-gray-100" }}>
               <FaGithub className="inline p-0 m-0 mb-1 w-5" /> Github
             </CustomButton>
-            <CustomButton props={{href:"https://www.linkedin.com/in/jrgraff/", className:"border-none bg-blue-600 text-gray-100"}}>
+            <CustomButton props={{ href: "https://www.linkedin.com/in/jrgraff/", className: "border-none bg-blue-600 text-gray-100" }}>
               <FaLinkedin className="inline p-0 m-0 mb-1 w-5" /> LinkedIn
             </CustomButton>
           </LinkSection>
@@ -143,13 +145,6 @@ export function AboutSection() {
               <Icon src="https://www.svgrepo.com/show/327408/logo-vercel.svg" alt="Vercel" />
               <Icon src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/firebase/firebase-plain.svg" alt="Firebase" />
               <Icon src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/jest/jest-plain.svg" alt="Jest" />
-            </Skills>
-          </SkillsSection>
-          <SkillsSection>
-            <Title>Interesse/Estudando</Title>
-            <Skills>
-              <Icon src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" alt="Prisma" />
-              <Icon className="mb-16" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/graphql/graphql-plain.svg" alt="Graphql" />
             </Skills>
           </SkillsSection>
         </Section>
