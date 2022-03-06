@@ -2,7 +2,6 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 import { NavBar } from "../../components/NavBar";
-import BackgroundImage from "../../assets/images/top-background.jpg";
 import { ViewMoreButton } from "../../components/ViewMoreButton";
 
 const TopSectionContainer = styled.div`
@@ -23,8 +22,8 @@ const LandingSection = styled.div`
     flex-col
   `};
 
-  background-image: url(${BackgroundImage}),
-    linear-gradient(to left, #b1d1b148, #005b9c);
+  background-image: url('/images/top-background.jpg'),
+  linear-gradient(to left, #b1d1b148, #005b9c);
   background-size: cover;
   background-position: top;
   background-blend-mode: overlay;

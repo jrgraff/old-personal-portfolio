@@ -3,9 +3,6 @@ import tw from "twin.macro";
 import { FaGithub } from "react-icons/fa"
 import { SiVercel } from "react-icons/si"
 
-import ignewsImage from "../../assets/images/ignews.jpg";
-import letmeaskImage from "../../assets/images/letmeask.jpg";
-import portfolioImage from "../../assets/images/portfolio.jpg";
 import { CustomButton } from "../../components/CustomButton";
 
 const ProjectsSectionContainer = styled.div`
@@ -123,7 +120,7 @@ export function ProjectsSection() {
         </TitleSection>
         <CardSection>
           <Card>
-            <Image src={ignewsImage} alt="image" />
+            <Image src={'/images/ignews.jpg'} alt="image" />
             <DescriptionSection>
               <h3>
                 <ProjectLink href="https://ig-news-sandy.vercel.app" target="_blank">
@@ -145,7 +142,7 @@ export function ProjectsSection() {
           </Card>
 
           <Card>
-            <Image src={letmeaskImage} alt="image" />
+            <Image src={'/images/letmeask.jpg'} alt="image" />
             <DescriptionSection>
               <h3>
                 <ProjectLink href="https://letmeask-jrgraff.vercel.app" target="_blank">
@@ -167,7 +164,7 @@ export function ProjectsSection() {
           </Card>
 
           <Card>
-            <Image src={portfolioImage} alt="image" />
+            <Image src={'/images/portfolio.jpg'} alt="image" />
             <DescriptionSection>
               <h3>
                 <ProjectLink href="/" target="_blank">

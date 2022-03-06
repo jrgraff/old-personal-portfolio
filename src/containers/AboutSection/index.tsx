@@ -4,8 +4,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { CustomButton } from "../../components/CustomButton";
 import { ViewMoreButton } from "../../components/ViewMoreButton";
-import typeormIcon from "../../assets/images/typeorm.png"
-import styledcomponentsIcon from "../../assets/images/styled-components.png"
 
 const AboutSectionContainer = styled.section`
   ${tw`
@@ -125,7 +123,7 @@ export function AboutSection() {
               <Icon src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3" />
               <Icon src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" alt="React" />
               <Icon src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/nextjs/nextjs-original.svg" alt="Next" />
-              <Icon src={styledcomponentsIcon} alt="Styled-components" />
+              <Icon src={'/images/styled-components.png'} alt="Styled-components" />
             </Skills>
           </SkillsSection>
           <SkillsSection>
@@ -134,7 +132,7 @@ export function AboutSection() {
               <Icon src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" />
               <Icon src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/express/express-original.svg" alt="Express.js" />
               <Icon src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/mongodb/mongodb-original.svg" alt="Mongodb" />
-              <Icon src={typeormIcon} alt="TypeORM" />
+              <Icon src={'/images/typeorm.png'} alt="TypeORM" />
             </Skills>
           </SkillsSection>
           <SkillsSection>

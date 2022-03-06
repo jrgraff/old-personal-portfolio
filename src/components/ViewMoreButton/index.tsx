@@ -11,15 +11,19 @@ const Button = styled.button`
     text-4xl
     transition-colors
     duration-200
-    hover:text-blue-400
   `}
   margin-left: calc(50% - 18px);
 `
 
 export function ViewMoreButton({ to, color }: { to: string; color: string }) {
+
   return (
     <Button>
-      <Link to={to} smooth={"easeInOutQuad"} className={ color } duration={1000}>
+      <Link
+        to={to}
+        smooth={"easeInOutQuad"}
+        className={`hover:text-blue-400 ${color}`}
+        duration={1000}>
         <BsArrowDownCircle />
       </Link>
     </Button>

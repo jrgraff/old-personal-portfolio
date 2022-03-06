@@ -2,7 +2,6 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-import BackgroundImage from "../../assets/images/top-background.jpg";
 import { deviceSize } from "../../constants/deviceSize";
 
 const FooterSection = tw.footer`
@@ -19,7 +18,7 @@ const Content = styled.div`
     flex
     justify-center
   `}
-  background-image: url(${BackgroundImage}),
+  background-image: url('/images/top-background.jpg'),
     linear-gradient(to left, #b1d1b148, #005b9c);
   background-size: cover;
   background-position: bottom;
