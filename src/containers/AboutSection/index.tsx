@@ -95,8 +95,9 @@ export function AboutSection() {
         <Section>
           <Title>Sobre mim</Title>
           <Description>
-            Formado em Sistemas de Informação na universidade URI - Santo Ângelo, atualmente cursando pós graduação de Gestão em Metodologias Ágeis no Biopark Educação. Trabalhei durante seis anos no Tenondé Park Hotel, onde passei grande parte do período no atendimento ao público como recepcionista, mas também atuando na área de cobranças, no setor administrativo.
-Durante o ultimo ano venho focando no aprendizado de novas tecnologias, como ReactJS, Node.JS, HTML e CSS, entre outras tecnologias. Meu objetivo para o futuro é me identificar como desenvolvedor full stack sênior.
+            Formado em Sistemas de Informação na universidade URI - Santo Ângelo, atualmente cursando pós graduação de Gestão em Metodologias Ágeis no Biopark Educação.<br />
+            Trabalhei durante seis anos no Tenondé Park Hotel, onde desenvolvi muito minha flexibilidade, inteligência emocional, empatia e flexibilidade.<br />
+            Durante o ultimo ano venho focando no aprendizado de novas tecnologias, como ReactJS, Node.js, HTML e CSS, entre outras tecnologias. Meu objetivo para o futuro é me identificar como desenvolvedor full stack sênior.
           </Description>
           <LinkSection>
             <CustomButton props={{href:"https://github.com/jrgraff", className:"border-none bg-gray-900 text-gray-100"}}>
